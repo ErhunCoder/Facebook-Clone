@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+.container{
+    background: #f0f2f5;
+    padding-top: 72px;
+    padding-bottom: 112px;
+}
+.content{
+    width: 900px;
+    margin: 20px auto;
+}
+.content > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.left-content{
+    width: 500px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
+.f-logo{
+    margin: 112px 0 16px;
+}
+.f-logo > img{
+    height: 100px;
+    margin: -20px;
+}
+
+.f-quote{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.card{
+    background: #fff;
+    width: 396px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.input-container > input[type=text],
+.input-container > input[type=password]{
+    width: 100%;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-size: 17px;
+
+}
+
+.input-container > input[type=text]:focus,
+.input-container > input[type=password]:focus{
+    border: 1px solid #1077f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-btn{
+    background: #1077f2;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    margin: 10px 0;
+}
+
+.forgotten-password{
+    text-align: center;
+}
+
+.forgotten-password > a{
+    font-weight: 550px;
+    font-size: 14px;
+    color: #1077f2;
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.forgotten-password > a:hover{
+    text-decoration: underline;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background: #d2d2d2;
+}
+.crt-new-acc{
+    display: inline-block;
+    background: #42b720;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 20px 0 7px;
+}
+
+.crt-page{
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.crt-page > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.f-lg-footer{
+    width: 980px;
+    margin: 30px auto;
+}
+
+.f-lg-footer > ul{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.f-lg-footer > ul > li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.f-lg-footer > ul > li > a{
+    text-decoration: none;
+    color: rgb(136, 131, 131);
+    font-size: 12px;
+}
+
+.m-footer{
+    display: none;
+}
+
+.line > a{
+    display: none;
+}
+
+@media (max-width: 980px){
+
+    .container{
+        padding-top: 0px;
+        padding-bottom: 20px;
+        background: #fff;
+    }
+    .content{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .left-content{
+        width: 100%;    
+    }
+
+    .right-content{
+        width: 100%;
+    }
+    .f-lg-footer{
+        display: none;
+    }
+
+    .f-logo{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .f-logo > img{
+        height: 37px;
+        margin: -50px auto;
+        display: inline-block;
+    }
+
+    .f-quote{
+        display: none;
+    }
+
+    .card{
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .input-container > input[type=text],
+    .input-container > input[type=password]{
+        background: #f5f5f7;
+    }
+
+    .m-footer{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+
+    .m-footer > ul:first-child{
+        float: left;
+    }
+
+    .m-footer > ul:last-child{
+        float: right;
+    }
+    .m-footer > ul li{
+        list-style: none;
+    }
+
+    .m-footer > ul > li > a{
+        text-decoration: none;
+        color: #777;
+    }
+    .line{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .line > a{
+        display: inline;
+        text-decoration: none;
+        color: #777;
+        text-align: center;
+        font-weight: 300;
+        font-size: smaller;
+    }
+}
